@@ -16,7 +16,6 @@ const InputComponent = () => {
   const [inputText, setInputText] = useState("");
   const [dateRange, setDateRange] = useState([]);
   const inputRef = useRef("");
-  //
 
   const handleInputTextClick = () => {
     setInputText(inputRef.current.value);
@@ -49,7 +48,6 @@ const InputComponent = () => {
   };
 
   async function postCompanyInformation(e) {
-    console.log(companyInformation);
     e.preventDefault();
     try {
       await axios.post("http://localhost:4000/company_information", {
