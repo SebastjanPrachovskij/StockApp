@@ -1,0 +1,29 @@
+.stockPrices {
+  &__form {
+    max-width: 400px;
+    min-width: 200px;
+    max-height: 300px;
+    min-height: 150px;
+    height: 225px;
+    background-color: #636e72;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #2d3436;
+  }
+  &__error {
+    position: relative;
+    color: #ff0000;
+    width: 170px;
+    top: 10px;
+    font-weight: bold;
+  }
+  &__company-name {
+    position: relative;
+    top: 20px;
+  }
+}
