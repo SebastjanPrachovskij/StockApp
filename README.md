@@ -4,19 +4,19 @@
 
 ## Front-End
 
-### 'npm -i devextreme@22.1 devextreme-react@22.1'
+### `npm -i devextreme@22.1 devextreme-react@22.1`
 
 Devextreme library is used to create candlestick chart
 
-### 'npm -i react-datepicker@4.8.0'
+### `npm -i react-datepicker@4.8.0`
 
 Date picks are used by react-datepicker library.
 
-### 'npm -i node-sass'
+### `npm -i node-sass`
 
 SASS files are used as style sheets.
 
-### 'npm -i finnhub'
+### `npm -i finnhub`
 
 Finnhub company-profile and stock-candles API are reached by 
 finnhub documentation.
@@ -31,10 +31,15 @@ You may also see any lint errors in the console.
 
 ## Back-End
 
-###'npm -i axios cors'
+### `npm -i axios cors`
 
 Cors and axios are used for back-end to post API data.
 
-### 'npm -i express'
+### `npm -i express`
 
 Used to log user actions into console.
+
+### `node index.js`
+
+Runs the app.
+Opens http://localhost:4000 server to do actions with Front-End.
