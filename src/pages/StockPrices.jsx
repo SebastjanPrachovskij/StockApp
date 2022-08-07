@@ -17,7 +17,7 @@ const InputComponent = () => {
   const [dateRange, setDateRange] = useState([]);
   const inputRef = useRef("");
 
-  const handleInputTextClick = () => {
+  const handleInputValueOnClick = () => {
     setInputText(inputRef.current.value);
     setShowStocks(true);
     setShowCompanies(true);
@@ -80,7 +80,7 @@ const InputComponent = () => {
         <button
           type="submit"
           className="stockPrices__button"
-          onClick={handleInputTextClick}
+          onClick={handleInputValueOnClick}
           disabled={!inputRef.current.value}
         >
           Submit
