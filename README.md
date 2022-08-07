@@ -4,6 +4,10 @@
 
 ## Front-End
 
+### `npm install react-scripts`
+
+To install all listed libraries below.
+
 ### `npm -i devextreme@22.1 devextreme-react@22.1`
 
 Devextreme library is used to create candlestick chart
